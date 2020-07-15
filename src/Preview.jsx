@@ -5,7 +5,7 @@ class Preview extends Component {
 
   render() {
     return (
-      <div className='preview'>
+      <div className='preview-container'>
         <MarkdownPreview className='previewBox' value={this.props.text} />
       </div>
     );

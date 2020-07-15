@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
 
-.container {
+.main-container {
   display: flex;
   width: 98vw;
   height: 95vh;
@@ -20,7 +20,7 @@
   height: 100%;
 }
 
-.preview {
+.preview-container {
   font-family: 'IBM Plex Sans', sans-serif;
   padding: 10px 32px;
   height: 100%;

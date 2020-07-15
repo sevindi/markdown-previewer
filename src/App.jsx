@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-        <div className='container'>
+        <div className='main-container'>
           <Editor updatePreview={this.updatePreview.bind(this)} value={this.state.textToPreview} />
           <Preview text={this.state.textToPreview} />
         </div>
